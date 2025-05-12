@@ -1,0 +1,52 @@
+
+/* Create general style of body  */
+body{
+    background-color: #8C52FF;
+}
+/* End create style of body  */
+
+
+/* Create style of img  */
+img {
+    width: 300px;
+    display: block; /* defining the line that will occupy*/
+    margin-left: auto; /*giving space outside*/
+    margin-right: auto; /*giving space outside*/
+}
+/* End create style of img  */
+
+
+/* Create style of div  */
+div {
+    background-color: white;
+    width: 500px;
+    padding: 40px ; /*giving space inside*/
+    margin-left: auto; /*giving space outside*/
+    margin-right: auto; /*giving space outside*/
+    margin-top: 40px; /*giving space outside top*/
+    border-radius: 30px;
+}
+/* End create style of div  */
+
+h1 {
+    text-align: center; 
+    font-size: 25px;
+    font-weight: 300;
+}
+
+input {
+    width: 230px;
+    height: 35px;
+}
+
+button {
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    background-color: #8C52FF;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
