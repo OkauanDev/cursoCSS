@@ -8,7 +8,7 @@
 
 body{
     height: 100vh; /*Define view height */
-    background-color: #7d2ae8;
+    background-color: #5409DA;
     display: flex;
     align-items: center; /*Só funciona se estiver com display flex*/
     justify-content: center; /*Só funciona se estiver com display flex*/
@@ -67,7 +67,7 @@ body{
             left: 13px;
             width: 25px;
             height: 36px;
-            background-color: #7d2ae8;
+            background-color: #5409DA;
             border-radius: 50px;
             transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
@@ -81,7 +81,7 @@ body{
                 width: 20px;
                 background: #fff;
                 border-bottom-right-radius: 20px;
-                box-shadow: 0 10px 0 #7d2ae8;
+                box-shadow: 0 10px 0 #5409DA;
             }
 
         & .indicator::after {
@@ -93,7 +93,7 @@ body{
                 width: 20px;
                 background-color: #fff;
                 border-bottom-left-radius: 20px ;
-                box-shadow: 0 10px 0 #7d2ae8 ;
+                box-shadow: 0 10px 0 #5409DA ;
         }
 
     }
