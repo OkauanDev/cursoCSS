@@ -1,26 +1,28 @@
 
-div {
-    background:  #7d2ae8;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
+/* Create general styles of project  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Create style of body */
+body{
+    background: #DAF0FF;
     height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-header{
-    background: red;
-    grid-column: 1 / 3 ;
-}
+/* Create style of div and your dependece  */
+div{
+    background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+    border-radius: 40px;
+    width: 375px;
+    height: 568px;
 
-main{
-    background: blue;
-
-}
-
-aside{
-    background: yellow;
-}
-
-footer{
-    background: orange;
 }
