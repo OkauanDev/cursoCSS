@@ -12,30 +12,30 @@
 <body>
     <div>
 
-        <p>12,452</p>
-        <button class="gray-button">AC</button>
-        <button class="gray-button">+/-</button>
-        <button class="blue-button">/</button>
-        <button class="blue-button">*</button>
-        <button class="black-button">7</button>
-        <button class="black-button">8</button>
-        <button class="black-button">9</button>
-        <button class="blue-button">-</button>
-        <button class="black-button">4</button>
-        <button class="black-button">5</button>
-        <button class="black-button">6</button>
-        <button class="blue-button">+</button>
-        <button class="black-button">1</button>
-        <button class="black-button">2</button>
-        <button class="black-button">3</button>
-        <button class="eqaul-button equal">=</button>
-        <button class="black-button zero">0</button>
-        <button class="black-button">.</button>
+        <input class="display">
+        <button class="gray-button" onclick="limpaTela()">AC</button>
+        <button class="gray-button" onclick="inverterNumero()">+/-</button>
+        <button class="blue-button" onclick="adiconarCaracter('/')">/</button>
+        <button class="blue-button" onclick="adiconarCaracter('*')">*</button>
+        <button class="black-button" onclick="adiconarCaracter('7')">7</button>
+        <button class="black-button" onclick="adiconarCaracter('8')">8</button>
+        <button class="black-button" onclick="adiconarCaracter('9')">9</button>
+        <button class="blue-button" onclick="adiconarCaracter('-')">-</button>
+        <button class="black-button" onclick="adiconarCaracter('4')">4</button>
+        <button class="black-button" onclick="adiconarCaracter('5')">5</button>
+        <button class="black-button" onclick="adiconarCaracter('6')">6</button>
+        <button class="blue-button" onclick="adiconarCaracter('+')">+</button>
+        <button class="black-button" onclick="adiconarCaracter('1')">1</button>
+        <button class="black-button"onclick="adiconarCaracter('2')">2</button>
+        <button class="black-button" onclick="adiconarCaracter('3')">3</button>
+        <button class="eqaul-button equal" onclick="calcular()">=</button>
+        <button class="black-button zero" onclick="adiconarCaracter('0')">0</button>
+        <button class="black-button" onclick="adiconarCaracter('.')">.</button>
 
     </div>
 
 
 
-    <script src="script.js"></script>
+    <script src="script.js"></script>   
 </body>
 </html>
